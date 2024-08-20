@@ -10,20 +10,11 @@ header .navtools a {
     color: #333; /* Couleur du texte */
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-.navtools {
-    display: flex;
-}
 header{
     
     display: flex;
     justify-content: space-evenly;
+    padding: 10px 20px;
     align-items: center;
     align-content: stretch;
     flex-wrap: wrap;
@@ -38,16 +29,16 @@ header{
 }
 
 #headerlogo {
-    width: 40px; /* Ajuste la taille du logo */
-    height: auto; /* Maintient les proportions de l'image */
-    margin-bottom: 10px; /* Espace entre le logo et le texte */
+    width: 40px; 
+    height: auto; 
+    margin-bottom: 10px; 
 }
 
 #headerp {
-    color: #1c5529; /* Couleur verte pour le texte */
-    font-size: 30px; /* Taille du texte */
-    font-weight: bold; /* Texte en gras */
-    margin: 0; /* Supprime les marges autour du texte */
+    color: #1c5529; 
+    font-size: 30px; 
+    font-weight: bold; 
+    margin: 0; 
 }
 div {
     display: flex;
