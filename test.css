@@ -1,0 +1,382 @@
+header img[name="gotohome"] {
+    width: 150px; /* Ajuste la largeur de l'image du logo */
+    height: auto; /* Maintient le ratio d'aspect pour éviter la distorsion */
+}
+
+header .navtools a {
+    font-size: 14px; /* Réduit la taille du texte des liens */
+    margin-left: 20px; /* Ajoute de l'espace entre les liens */
+    text-decoration: none; /* Supprime la sous-ligne des liens */
+    color: #333; /* Couleur du texte */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navtools {
+    display: flex;
+}
+header{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.leadsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#headerlogo {
+    width: 40px; /* Ajuste la taille du logo */
+    height: auto; /* Maintient les proportions de l'image */
+    margin-bottom: 10px; /* Espace entre le logo et le texte */
+}
+
+#headerp {
+    color: #1c5529; /* Couleur verte pour le texte */
+    font-size: 30px; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+    margin: 0; /* Supprime les marges autour du texte */
+}
+div {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
+.p2,.p3{
+    width: 300px;
+    height: 150px;
+    color: #747474;
+}
+.forsection {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.for1 {
+    background-color: #FFDDC1; /* Light peach color for the first column */
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    margin: 10px;
+}
+
+.for2 {
+    background-color: #C1E1FF; /* Light blue color for the second column */
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    margin: 10px;
+}
+
+.for3 {
+    background-color: #C1FFC1; /* Light green color for the third column */
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    margin: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+#section3title {
+    display: flex;
+    padding: 20px; /* Add padding around the content */
+    background-color: #f9f9f9; /* Light grey background color */
+
+}
+
+#section3title p {
+    font-size: 20px; /* Smaller text size */
+    color: #228B22; /* Green text color */
+}
+#section3logos {
+    display: flex; /* Use flexbox to align logos */
+    flex-wrap: wrap; /* Allow logos to wrap onto new lines */
+    justify-content: center; /* Center the logos */
+    gap: 20px; /* Add space between logos */
+    padding: 20px; /* Add padding around the logos */
+    background-color: #f0f0f0; /* Light grey background color */
+    border-radius: 10px; /* Round the corners */
+    margin: 20px auto; /* Center the div horizontally */
+    max-width: 1000px; /* Set a maximum width */
+}
+
+#section3logos img {
+    max-width: 150px; /* Set a maximum width for each logo */
+    max-height: 50px; /* Set a maximum height for each logo */
+    object-fit: contain; /* Ensure logos fit within the bounds */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+#section3logos img:hover {
+    transform: scale(1.1); /* Slightly enlarge the logo on hover */
+}
+/* Section 4 overall styling */
+.section4 {
+    padding: 50px 20px;
+    background-color: #e6f7f5; /* Soft teal background */
+    display: flex;
+    align-items: flex-start; /* Align items to the start */
+    justify-content: space-between; /* Space between header and four parts */
+}
+
+/* Section 4 header styling (for the logo and text) */
+.section4header {
+    flex: 1;
+    text-align: left;
+    margin-right: 30px; /* Space between header and boxes */
+}
+
+.section4header h2 {
+    font-size: 2.8rem;
+    color: #3a3a3a; /* Darker gray for title */
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.section4header p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 25px;
+    line-height: 1.7;
+}
+
+.section4header img {
+    max-width: 150px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+/* Styling for the four parts (stats and icons) */
+.section4fourparts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns */
+    gap: 30px;
+    flex: 3; /* Take up more space */
+}
+
+/* Individual box styling */
+.section4fourparts .part {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for the boxes */
+.section4fourparts .part:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling inside each box */
+.section4fourparts img {
+    max-width: 60px;
+    margin-bottom: 20px;
+}
+
+.section4fourparts h3 {
+    font-size: 1.7rem;
+    color: #2d8f83;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.section4fourparts p {
+    font-size: 1rem;
+    color: #444;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .section4 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section4header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .section4fourparts {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+    }
+}
+/* Styling for section5 */
+.section5 {
+    background-color: #f9f9f9; /* Light background color for the section */
+    padding: 50px 20px; /* Padding around the section */
+    text-align: center; /* Center-align all text */
+    color: #333; /* Dark text color for readability */
+}
+
+.section5 div {
+    max-width: 800px; /* Limit the width of the content */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 20px; /* Padding inside the div */
+    border-radius: 10px; /* Rounded corners for the content area */
+}
+
+.section5 h3 {
+    font-size: 2rem; /* Size of the heading */
+    font-weight: bold; /* Bold text */
+    color: #2c8f4e; /* Green color for emphasis */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Styling for section6 */
+.section6 {
+    background-color: #f5f5f5; /* Light grey background */
+    padding: 50px 20px; /* Padding around the section */
+}
+
+.section6 .country {
+    display: flex; /* Flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    justify-content: space-around; /* Distribute items evenly */
+    gap: 20px; /* Space between items */
+}
+
+.section6 .country > div {
+    background-color: #ffffff; /* White background for each city block */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 200px; /* Fixed width for each city block */
+    text-align: center; /* Center text and buttons */
+    padding: 15px; /* Padding inside each city block */
+}
+
+.section6 .country img {
+    width: 100%; /* Make the image fit the width of the block */
+    border-radius: 8px; /* Rounded corners for the image */
+    object-fit: cover; /* Ensure the image covers the area */
+}
+
+.section6 .buttons {
+    margin-top: 10px; /* Space between image and button block */
+}
+
+.section6 .buttons p {
+    font-size: 1.2rem; /* Size of the city name */
+    color: #333; /* Dark text color for readability */
+    margin: 10px 0; /* Space above and below the city name */
+}
+
+.section6 .buttons button {
+    background-color: #2c8f4e; /* Green background for the button */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    font-size: 1rem; /* Font size for button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-weight: bold; /* Bold text for emphasis */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.section6 .buttons button:hover {
+    background-color: #238e4f; /* Darker green on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .section6 .country {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .section6 .country > div {
+        width: 90%; /* Increase width for smaller screens */
+    }
+}
+/* Section 7 Styling */
+.section7 {
+    padding: 50px 20px; /* Padding around the section */
+    text-align: center; /* Center-align text and button */
+}
+
+.section7 h1 {
+    font-size: 2rem; /* Larger font size for the heading */
+    color: #333333; /* Dark grey color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.section7 button {
+    background-color: #007bff; /* Blue background for the button */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    padding: 15px 30px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    font-size: 1.2rem; /* Font size for button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-weight: bold; /* Bold text for emphasis */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.section7 button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #f8f9fa; /* Light grey background */
+    color: #333333; /* Dark grey text color */
+    padding: 30px 20px; /* Padding around the footer */
+    text-align: center; /* Center-align text */
+}
+
+footer .end {
+    margin-bottom: 20px; /* Space below the main text */
+}
+
+footer .end a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold links for emphasis */
+}
+
+footer .end a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+footer p {
+    font-size: 0.9rem; /* Slightly smaller font size for the footer text */
+    margin-top: 10px; /* Space above the paragraph */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .section7 h1 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .section7 button {
+        padding: 12px 25px; /* Adjust button padding for smaller screens */
+    }
+}
